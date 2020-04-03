@@ -1,0 +1,15 @@
+.alert-info {
+  max-height: 72px !important;
+  overflow-y: auto !important;
+}
+
+flash-message {
+  max-height: 200px !important;
+  overflow-y: auto !important;
+  display: block !important;
+}
+
+.nav-stacked {
+  max-height: calc(100vh - 200px) !important;
+  overflow-y: auto !important;
+}

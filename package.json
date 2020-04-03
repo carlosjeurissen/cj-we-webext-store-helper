@@ -1,0 +1,34 @@
+{
+  "name": "cj-we-about-black",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "CarlosJeurissen/cj-we-about-black",
+  "homepage": "https://apps.jeurissen.co/",
+  "author": {
+    "name": "Carlos Jeurissen",
+    "email": "carlos@jeurissen.co"
+  },
+  "bugs": {
+    "email": "support@carlosjeurissen.com"
+  },
+  "devDependencies": {
+    "set-json-version": "^1.0.1",
+    "web-ext": "^4.1.0"
+  },
+  "scripts": {
+    "build": "web-ext build",
+    "lint": "web-ext lint",
+    "run-firefox": "web-ext run --verbose --target firefox-desktop",
+    "run-firefox-android": "web-ext run --verbose --target firefox-android",
+    "run-chromium": "web-ext run --verbose --target chromium",
+    "set-version": "set-json-version -f package.json src/manifest.json -v"
+  },
+  "webExt": {
+    "sourceDir": "src",
+    "artifactsDir": "dist_packed",
+    "build": {
+      "overwriteDest": true
+    }
+  }
+}

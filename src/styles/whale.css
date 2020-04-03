@@ -1,0 +1,11 @@
+.secretmode_guide,
+.secretmode_guide p {
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#header.secretmode {
+	margin-top: 48px !important;
+}

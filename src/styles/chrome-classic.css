@@ -1,0 +1,34 @@
+#cx-dev-dash > div {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  margin-bottom: -1px !important;
+  border-radius: 0 !important;
+  background-color: white !important;
+  border-color: #d9d9d9 !important;
+}
+
+#signedin-actions {
+  position: fixed !important;
+  top: -1px !important;
+  right: -1px !important;
+  background: #fff !important;
+  border: 1px solid black !important;
+  line-height: 24px !important;
+  z-index: 9 !important;
+  padding: 0 !important;
+}
+
+#cx-member-of-group-publisher {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  top: 24px !important;
+}
+
+#cx-member-of-group-publisher select {
+  margin: 0 !important;
+}
+
+#cx-browser-warning {
+  display: none !important;
+}
