@@ -20,15 +20,28 @@
 
 #cx-member-of-group-publisher {
   position: fixed !important;
-  top: 0 !important;
-  right: 0 !important;
   top: 24px !important;
+  right: 0 !important;
 }
 
 #cx-member-of-group-publisher select {
   margin: 0 !important;
+  max-width: 250px !important;
 }
 
 #cx-browser-warning {
   display: none !important;
+}
+
+#signedin-email {
+  max-width: 237px !important;
+  display: inline-block !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  vertical-align: top !important;
+}
+
+#cwspage > table:first-child {
+  max-width: 600px !important;
 }

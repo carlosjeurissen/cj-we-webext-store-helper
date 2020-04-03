@@ -1,7 +1,0 @@
-.app_upload_box input[type="file"] {
-  opacity: 1 !important;
-  position: relative !important;
-  width: auto !important;
-  height: auto !important;
-  transform: translateY(-11px) !important;
-}
