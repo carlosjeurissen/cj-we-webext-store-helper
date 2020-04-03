@@ -1,0 +1,1 @@
+# cj-we-webext-store-helper
