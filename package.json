@@ -1,9 +1,9 @@
 {
-  "name": "cj-we-about-black",
-  "version": "1.0.4",
+  "name": "cj-we-webext-store-helper",
+  "version": "1.0.6",
   "license": "UNLICENSED",
   "private": true,
-  "repository": "CarlosJeurissen/cj-we-about-black",
+  "repository": "CarlosJeurissen/cj-we-webext-store-helper",
   "homepage": "https://apps.jeurissen.co/",
   "author": {
     "name": "Carlos Jeurissen",
@@ -13,10 +13,10 @@
     "email": "support@carlosjeurissen.com"
   },
   "devDependencies": {
-    "set-json-version": "^1.0.1",
-    "stylelint": "^13.3.0",
-    "stylelint-config-ccb": "~1.1.0",
-    "web-ext": "^4.1.0"
+    "set-json-version": "~1.0.4",
+    "stylelint": "~13.6.1",
+    "stylelint-config-ccb": "~1.1.2",
+    "web-ext": "~4.3.0"
   },
   "scripts": {
     "build": "web-ext build",
